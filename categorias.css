@@ -1,0 +1,47 @@
+
+
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 220px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #5A3825;
+}
+
+.producto p {
+    margin-bottom: 5px;
+}
+
+.producto button {
+    background-color: #5A3825;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #4A2D1A;
+}
